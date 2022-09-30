@@ -1,0 +1,84 @@
+/*
+---------------------------------------------------------FONTS
+*/
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-Regular.ttf") format("ttf") local("Jost");
+}
+
+/*
+---------------------------------------------------------MAIN
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: #1c1d26;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  margin-top: 90px;
+}
+
+.header_logo {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+.header_nav {
+  display: flex;
+  width: 55%;
+  justify-content: flex-end;
+}
+
+.header_nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.header_nav ul a {
+  text-decoration: none;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+.header_nav ul a li {
+  text-decoration: none;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.header_menu {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+/*
+---------------------------------------CARDS
+*/
+
+.main_cards__item {
+  width: 582px;
+  height: 906px;
+  background: #1c1d26;
+  box-shadow: 50px 5px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  transform: rotate(-2deg);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
