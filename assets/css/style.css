@@ -3,7 +3,9 @@
 */
 @import "fonts.css";
 @import "header.css";
-@import "planets.css";
+@import "./css_components/about_us.css";
+@import "./css_components/planets.css";
+@import "./css_components/planet_01.css";
 
 /* !MAIN */
 
@@ -14,7 +16,11 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  background-color: #1c1d26;
+  background-color: black;
+  background-image: url('../images/Blur.svg');
+  background-repeat: no-repeat;
+  background-position: 25%;
+  background-size: contain;
   flex-direction: column;
   overflow: hidden;
 }

@@ -1,0 +1,45 @@
+/*
+---------------------------------------PLANET_01
+*/
+
+.planet_01 {
+  display: flex;
+  height: 75vh;
+}
+
+.planet_01_block {
+  display: flex;
+}
+
+.planet_01_block:nth-child(1) {
+  width: 20%;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.planet_01_block:nth-child(2) {
+  width: 33.3%;
+  border: solid rgba(255, 255, 255, 0.19);
+  border-width: 0 1px;
+  position: relative;
+  z-index: 10;
+}
+
+.planet_01_block:nth-child(1) > img:nth-child(2) {
+    width: 100%;
+    margin-top: 10%;
+    position: relative;
+    left: 20%;
+}
+
+.planet_01_block:nth-child(3) {
+  width: 50%;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.planet_01_block:nth-child(3) > img {
+  width: 80%;
+}
