@@ -27,9 +27,8 @@
 }
 
 .planets_cards__item > h1 {
-  font-family: "Lateef";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 7em;
   color: #ffffff;
   display: flex;
